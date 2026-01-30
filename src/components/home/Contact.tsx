@@ -24,12 +24,14 @@ export default function Contact() {
                         </GlassCard>
                     </a>
 
-                    <a href="https://linkedin.com/in/aryan" target="_blank" rel="noopener noreferrer" className="flex-1">
+                    <a href="https://www.linkedin.com/in/kazi-abu-aryan" target="_blank" rel="noopener noreferrer" className="flex-1 group">
                         <GlassCard className="flex h-full items-center justify-center gap-3 py-8 hover:bg-white/10 transition-colors cursor-pointer border-white/20">
                             <Linkedin className="text-blue-400" />
                             <div className="text-left">
                                 <p className="text-xs text-white/70 font-bold uppercase tracking-widest">LinkedIn</p>
-                                <p className="text-white font-bold">linkedin.com/in/aryan</p>
+                                <p className="text-white font-bold group-hover:text-blue-400 group-hover:underline transition-all">
+                                    linkedin.com/in/kazi-abu-aryan
+                                </p>
                             </div>
                         </GlassCard>
                     </a>
