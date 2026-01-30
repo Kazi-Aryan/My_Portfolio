@@ -1,7 +1,7 @@
 "use client";
 
 import GlassCard from "../ui/GlassCard";
-import { Mail, Linkedin, Send } from "lucide-react";
+import { Mail, Linkedin, Send, Phone } from "lucide-react";
 
 export default function Contact() {
     return (
@@ -24,13 +24,25 @@ export default function Contact() {
                         </GlassCard>
                     </a>
 
-                    <GlassCard className="flex-1 flex items-center justify-center gap-3 py-8 hover:bg-white/10 transition-colors cursor-pointer border-white/20">
-                        <Linkedin className="text-blue-400" />
-                        <div className="text-left">
-                            <p className="text-xs text-white/70 font-bold uppercase tracking-widest">LinkedIn</p>
-                            <p className="text-white font-bold">linkedin.com/in/aryan</p>
-                        </div>
-                    </GlassCard>
+                    <a href="https://linkedin.com/in/aryan" target="_blank" rel="noopener noreferrer" className="flex-1">
+                        <GlassCard className="flex h-full items-center justify-center gap-3 py-8 hover:bg-white/10 transition-colors cursor-pointer border-white/20">
+                            <Linkedin className="text-blue-400" />
+                            <div className="text-left">
+                                <p className="text-xs text-white/70 font-bold uppercase tracking-widest">LinkedIn</p>
+                                <p className="text-white font-bold">linkedin.com/in/aryan</p>
+                            </div>
+                        </GlassCard>
+                    </a>
+
+                    <a href="https://wa.me/8801511450326" target="_blank" rel="noopener noreferrer" className="flex-1">
+                        <GlassCard className="flex h-full items-center justify-center gap-3 py-8 hover:bg-white/10 transition-colors cursor-pointer border-white/20">
+                            <Phone className="text-green-400" />
+                            <div className="text-left">
+                                <p className="text-xs text-white/70 font-bold uppercase tracking-widest">WhatsApp</p>
+                                <p className="text-white font-bold">01511-450326</p>
+                            </div>
+                        </GlassCard>
+                    </a>
                 </div>
 
                 <button className="mt-12 group glass px-12 py-5 rounded-full text-white font-bold flex items-center gap-2 mx-auto hover:bg-white/5 transition-all active:scale-95">
